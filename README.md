@@ -3,7 +3,7 @@
 
 ## Ingestion.
 All the movies from TMDB dataset are converted into connected nodes with the schema
-```mermaidjs
+```mermaid
 erDiagram
     MOVIE }o--o{ PERSON : CAST
     MOVIE }o--o{ PERSON : CREW
